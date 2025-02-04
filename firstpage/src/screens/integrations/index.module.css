@@ -50,21 +50,60 @@
     width: 500px;
     height: 66px;
 }
+.logoCarouselPlaceholder{
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100vw;
+    height: 138px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.logoCarouselPlaceholder:before,
+.logoCarouselPlaceholder:after {
+    position: absolute;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logoCarouselPlaceholder:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 20%, white 80%);
+}
+
+
+.logoCarouselPlaceholder:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 20%, white 80%);
+}
+
+.logoCarouselPlaceholder:hover .logos-slide {
+    animation-play-state: paused;
+}
 
 .logoCarousel {
-    overflow: hidden;
-    position: relative;
+    height: 100%;
     width: 100%;
-    justify-content: space-between;
-    margin-bottom: 0;
-    height: 138px; /* Высота контейнера под иконки */
+    white-space: nowrap;
     display: flex;
-    align-items: center;
+    animation: 40s moveIcon infinite linear;
 }
+
+/*.logoCarousel {*/
+/*    display: inline-flex;*/
+/*    animation: moveIcon 25s linear infinite;*/
+/*    white-space: nowrap;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
 /* Иконка движется отдельно */
 .logoItem {
-    animation: moveIcon 7s linear infinite;
+    margin: 0 40px;
     width: 86px;
     height: 86px;
     justify-content: center;
@@ -78,7 +117,7 @@
 /* Движение каждой иконки внутри контейнера */
 @keyframes moveIcon {
     from {
-        transform: translateX(100%); /* Начинаем за правым краем контейнера */
+        transform: translateX(0%); /* Начинаем за правым краем контейнера */
     }
     to {
         transform: translateX(-100%); /* Уходим за левый край контейнера */

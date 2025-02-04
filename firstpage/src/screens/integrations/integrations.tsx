@@ -44,6 +44,7 @@ export const companyLogos = [
         width: 43,
         height: 43,
     },
+
 ];
 
 export const textForCard1 = ["Data Migration in Two Clicks.", "Intuitive Interface.", "Step-by-step instructions so you and your team can fully benefit from the system from day one."];
