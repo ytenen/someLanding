@@ -1,0 +1,36 @@
+.page {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 96px 64px 160px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+
+.container {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 32px;
+    height: min-content;
+    justify-content: center;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+

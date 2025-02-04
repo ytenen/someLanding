@@ -1,0 +1,46 @@
+.widgets {
+    background-color: rgb(24, 24, 26);
+    padding-top: 90px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    margin-left: -50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    padding-bottom: 25px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    opacity: 1;
+}
+
+.section-title-wrapper {
+    margin-left: 48%;
+    width: 100%;
+}
+
+
+.descriptionContainer {
+    z-index: 1;
+    min-height: auto;
+    overflow: visible;
+    position: relative;
+    width: 600px;
+    height: 44px;
+    font-size: 16px;
+}
+
+.descriptionText {
+    z-index: 1;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    opacity: 1;
+    position: relative;
+}

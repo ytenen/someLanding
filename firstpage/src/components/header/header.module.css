@@ -1,0 +1,71 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    -webkit-font-smoothing: antialiased;
+    z-index: 1000;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-color: rgb(245, 245, 245);
+    border-bottom: 1px solid;
+}
+
+
+.navbar {
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    width: 100%;
+    max-width: 100vw;
+    opacity: 1;
+    z-index: 1000;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    z-index: 1000;
+}
+
+.navLinks div a  {
+    opacity: 0.65;
+    width: auto;
+    text-decoration: none;
+    color: rgb(14,14,14);
+    font-weight: 500;
+    font-size: 16px;
+    height: 32px;
+    min-width: 64px;
+    z-index: 1000;
+}
+
+
+.navLinks div a:hover {
+    opacity: 1;
+}
+
+.logo{
+    margin-left: 45px;
+}
+
+.headerButtonContainer{
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    width: 319px;
+    height: 56px;
+    align-items: center;
+    margin-right: 40px;
+}
+
+

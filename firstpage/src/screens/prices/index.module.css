@@ -1,0 +1,131 @@
+.mainInfo{
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    column-gap: 16px;
+    z-index: 1;
+}
+
+.cutArticle {
+    z-index:1;
+    padding-top: 96px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    opacity: 1;
+    background-color: rgb(243, 244, 246);
+}
+
+.buttonContainer{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+.paragraphContainer {
+    z-index: 1;
+    outline: currentcolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: none;
+    opacity: 1;
+    height: auto;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+    flex: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+}
+
+.paragraphText {
+    z-index: 1;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-size: 54px;
+    opacity: 1;
+    padding: 0 20px;
+    height: 118px;
+}
+
+
+
+.descriptionContainer {
+    z-index: 1;
+    min-height: auto;
+    overflow: visible;
+    position: relative;
+}
+
+.descriptionText {
+    z-index: 1;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    opacity: 1;
+    position: relative;
+}
+.checkMark {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(89, 117, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.checkMarkDiv {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-top: 45px;
+}
+
+.checkMarksContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+
+.mark {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    //display: flex;
+    justify-content: space-between;
+    color: rgb(89, 117, 255);
+    gap: 8px;
+}

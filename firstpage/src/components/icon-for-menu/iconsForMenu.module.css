@@ -1,0 +1,25 @@
+.heart-icon {
+    transition: fill 0.3s ease;
+}
+
+.heart-icon:hover {
+    fill: rgb(89,117,255); /* Цвет при наведении */
+}
+
+
+.edit-icon {
+    transition: fill 0.3s ease; /* Плавное изменение цвета */
+}
+
+.edit-icon:hover {
+    fill: rgb(89,117,255); /* Цвет при наведении */
+}
+
+
+.star-icon {
+    transition: fill 0.3s ease; /* Плавное изменение цвета */
+}
+
+.star-icon:hover {
+    fill: rgb(89,117,255); /* Цвет при наведении */
+}

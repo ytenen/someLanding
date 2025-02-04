@@ -1,0 +1,43 @@
+.paragraphContainer {
+    z-index: 1;
+    outline: currentcolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: none;
+    opacity: 1;
+    height: auto;
+    min-height: auto;
+    min-width: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+    flex: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: inherit;
+}
+
+.paragraphTextForLight {
+    z-index: 1;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-align: center;
+    font-size: 40px;
+    opacity: 1;
+    color: rgb(14, 14, 14);
+    height: auto;
+}
+
+.paragraphTextForDark {
+    z-index: 1;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    text-align: center;
+    font-size: 40px;
+    opacity: 1;
+    color: rgb(247, 247, 247);
+    padding: 0 20px;
+    height: 118px;
+}
